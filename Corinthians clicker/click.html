@@ -1,0 +1,93 @@
+Html:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corinthians Clicker</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="cabecario">
+        <button class="botao_loja" id="botao_loja">
+            <img src="images/loja.png">
+        </button>
+        <h1 class="titulo">Corinthians Clicker</h1>
+        <button class="botao_loja" id="botao_loja2">
+            <img src="images/loja.png">
+        </button>
+    </div>
+    <div class="pontuacao">
+        <img src="images/bola.jpg">
+        <span id="pontuacao">0</span>
+    </div>
+    <div class="container">
+        <div class="loja" id="loja">
+            <div class="cabecario_loja">
+                <h1>Loja: </h1>
+                <button class="encerra" id="fecha">
+                    <img src="images/x.png">
+                </button>            
+            </div>
+
+            <div class="compra" id="clicker_upgrade">
+                <img src="images/brasileiro.jpg">
+                <h2>Brasileirão</h2>
+                <p>Preço <span id="custo_clicker">10</span></p>
+                <h1>Level <span id="level_clicker">0</span></h1>
+            </div>
+
+            <div class="compra" id="bananas_upgrade">
+                <img src="images/liberta.jpg">
+                <h2>Libertadores </h2>
+                <p>Preço <span id="custo_bananas">130</span></p>
+                <h1>Level <span id="level_bananas">0</span></h1>
+            </div>
+
+            <div class="compra" id="bananeira_upgrade">
+                <img src="images/mundial.jpg">
+                <h2>Mundial </h2>
+                <p>Preço <span id="custo_bananeira">850</span></p>
+                <h1>Level <span id="level_bananeira">0</span></h1>
+            </div>
+        </div>
+        <img src="images/sccp.png" class="macaco" id="macaco" draggable="false">
+        <div class="text_info">
+            <p>BPC: <span id="bpc_text">1</span> (Gols por click)</p>
+            <p>BPS: <span id="bps_text">0</span> (Gols por segundo)</p>
+        </div>
+        <div class="loja2" id="loja2">
+            <div class="cabecario_loja">
+                <h1>Loja: </h1>
+                <button class="encerra" id="fecha2">
+                    <img src="images/x.png">
+                </button>            
+            </div>
+
+            <div class="compra" id="casca_upgrade">
+                <img src="images/yuri.png">
+                <h2>Yuri Alberto </h2>
+                <p>Custo: <span id="custo_casca">1000</span></p>
+                <h1>Level <span id="level_casca">0</span></h1>
+            </div>
+
+            <div class="compra" id="cacho_upgrade">
+                <img src="images/cassio.png">
+                <h2>Cássio upgrade </h2>
+                <p>Custo: <span id="custo_cacho">1200</span></p>
+                <h1>Level <span id="level_cacho">0</span></h1>
+            </div>
+
+            <div class="compra" id="minion_upgrade">
+                <img src="images/memphis.png    ">
+                <h2>Depay </h2>
+                <p>Custo: <span id="custo_minion">9999999999999</span></p>
+                <h1>Level <span id="level_minion">0</span></h1>
+            </div>
+        </div>
+    </div>
+    <script src="script/script.js"></script>
+    <p><a href="../index.html">Voltar</a></p>
+    <p class="dev-texto">Desenvolvido por: Joaquim Rafael</p>
+</body>
+</html>
